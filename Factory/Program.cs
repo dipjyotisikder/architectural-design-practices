@@ -7,10 +7,12 @@ namespace Factory
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
-            var fileHandler = new FileHandlerFactory("c");
-            var data = fileHandler.Create();
+            var fileHandler = new FileHandlerFactory("a");
+            var creator = fileHandler.Create();
+
+            creator.upload();
+            creator.download();
         }
     }
 }

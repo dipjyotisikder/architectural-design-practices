@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Factory.FileFactory
 {
-    public interface IFileHandlerFactory<T> where T : IFileHandler
+    public interface IFileHandlerFactory
     {
-        T Create();
+        IFileHandler Create();
     }
 }

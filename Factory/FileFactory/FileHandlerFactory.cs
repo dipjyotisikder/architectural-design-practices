@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Factory.FileFactory
 {
-    public class FileHandlerFactory : IFileHandlerFactory<IFileHandler>
+    public class FileHandlerFactory : IFileHandlerFactory
     {
         private readonly string _type = null;
         public FileHandlerFactory(string type)
