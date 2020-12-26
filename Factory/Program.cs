@@ -10,7 +10,7 @@ namespace Factory
             Console.WriteLine("Hello World!");
 
             var fileHandler = new FileHandlerFactory("c");
-            fileHandler.Create().download();
+            var data = fileHandler.Create();
         }
     }
 }
