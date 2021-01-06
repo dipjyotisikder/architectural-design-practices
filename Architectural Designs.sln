@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liscov", "Liscov\Liscov.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{255685C7-9E77-4657-8E4A-B5FC6D361031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{45E244E6-4AFF-46A5-AB2D-91E6FB2817C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{45E244E6-4AFF-46A5-AB2D-91E6FB2817C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed", "Sealed\Sealed.csproj", "{E4E4DF09-5A3F-4ABF-8327-912876DACA53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{45E244E6-4AFF-46A5-AB2D-91E6FB2817C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E244E6-4AFF-46A5-AB2D-91E6FB2817C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E244E6-4AFF-46A5-AB2D-91E6FB2817C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
