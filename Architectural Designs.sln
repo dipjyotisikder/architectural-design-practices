@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed", "Sealed\Sealed.csproj", "{E4E4DF09-5A3F-4ABF-8327-912876DACA53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanNotCreateObject", "CanNotCreateObject\CanNotCreateObject.csproj", "{0DE817F9-9244-4306-AE18-4F8D43DEC54B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E4DF09-5A3F-4ABF-8327-912876DACA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
