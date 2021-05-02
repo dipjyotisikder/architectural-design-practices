@@ -7,9 +7,15 @@ namespace Factory
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Plese enter a value: ");
+            Console.WriteLine("Photo: 'a' ");
+            Console.WriteLine("PDF: 'b' ");
+            Console.WriteLine("XML: 'c' ");
 
-            var fileHandler = new FileHandlerFactory("a");
-            var creator = fileHandler.Create();
+            var value = Console.ReadLine();
+
+            var fileHandler = new FileHandlerFactory(value);
+            var creator = fileHandler.CreateDesiredObject();
 
             creator.upload();
             creator.download();

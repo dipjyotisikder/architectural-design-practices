@@ -6,23 +6,7 @@ namespace Sealed
     {
         static void Main(string[] args)
         {
-            //RESULT IS :
-            //IAmSealed CLASS CAN NOT BE INHERITED BY ANY CLASS EVER
-            //BUT IAmSealed CLASS CAN BE INSTANTIATED
+            Console.WriteLine("Hello World!");
         }
     }
-
-
-    public sealed class IAmSealed
-    {
-        public IAmSealed()
-        {
-        }
-    }
-
-    public class ICanNotInheritSealed //: IAmSealed 
-    {
-
-    }
-
 }

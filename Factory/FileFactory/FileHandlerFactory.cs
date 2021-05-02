@@ -11,7 +11,7 @@ namespace Factory.FileFactory
         {
             _type = type;
         }
-        public IFileHandler Create()
+        public IFileHandler CreateDesiredObject()
         {
             if (_type == "a")
             {

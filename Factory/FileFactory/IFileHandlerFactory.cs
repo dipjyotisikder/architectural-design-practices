@@ -6,6 +6,6 @@ namespace Factory.FileFactory
 {
     public interface IFileHandlerFactory
     {
-        IFileHandler Create();
+        IFileHandler CreateDesiredObject();
     }
 }
