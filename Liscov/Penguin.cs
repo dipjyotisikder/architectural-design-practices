@@ -1,19 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Liscov
 {
-    public class Penguin : BirdCanWalk
+    public class Penguin : IWalkingBird
     {
-        public override void eat()
+        public string Name { get; private set; }
+
+        public void SetName(string Name)
         {
-            Console.WriteLine("I Can eat like penguin");
+            this.Name = Name;
         }
 
-        public override void walk()
+        public void Eat()
         {
-            Console.WriteLine("I Can walk like penguin");
+            Console.WriteLine($"I am {Name} ,I Can eat like penguin");
+        }
+
+        public void Walk()
+        {
+            Console.WriteLine($"I am {Name} ,I Can walk like penguin");
         }
     }
 }

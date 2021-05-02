@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Liscov
+﻿namespace Liscov
 {
     public interface IBird
     {
-        void eat();
+        public string Name { get; }
+        void Eat();
     }
 
-    public interface IBirdCanFly : IBird
+    public interface IFlyingBird : IBird
     {
-        void fly();
+        void Fly();
+        void SetName(string Name);
     }
 
-    public interface IBirdCanWalk : IBird
+    public interface IWalkingBird : IBird
     {
-        void walk();
+        void Walk();
+        void SetName(string Name);
     }
 }

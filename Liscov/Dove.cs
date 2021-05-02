@@ -1,19 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Liscov
 {
-    public class Dove : BirdCanFly
+    public class Dove : IFlyingBird
     {
-        public override void eat()
+        public string Name { get; private set; }
+
+        public void SetName(string Name)
         {
-            Console.WriteLine("I Can eat like dove");
+            this.Name = Name;
         }
 
-        public override void fly()
+        public virtual void Eat()
         {
-            Console.WriteLine("I Can fly like dove");
+            Console.WriteLine($"I am {Name} , I Can eat");
         }
+
+        public virtual void Fly()
+        {
+            Console.WriteLine($"I am { Name} ,I Can fly");
+        }
+
+
     }
 }

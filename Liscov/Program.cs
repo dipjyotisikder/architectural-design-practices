@@ -6,29 +6,17 @@ namespace Liscov
     {
         static void Main(string[] args)
         {
+            var name = Console.ReadLine();
 
             Dove doveObject = new Dove();
-            doveObject.eat();
-            doveObject.fly();
+            doveObject.SetName(name);
+            doveObject.Eat();
+            doveObject.Fly();
 
-
-            //Bird birdObject = new Bird();
-            //birdObject.eat();
-
-
-            Penguin PenguinObject = new Penguin();
-            PenguinObject.eat();
-            PenguinObject.walk();
-
-
-            //Bird birdObjectByDove = new BirdCanFly();
-            //birdObjectByDove.eat();
-            //birdObjectByDove.fly();
-
-
-            //Dove doveObjectByBird = (Dove)new Bird();
-            //doveObjectByBird.eat();
-            //doveObjectByBird.fly();
+            Penguin penguinObject = new Penguin();
+            penguinObject.SetName(name);
+            penguinObject.Eat();
+            penguinObject.Walk();
         }
     }
 }
