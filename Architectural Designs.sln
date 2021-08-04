@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{45E244E6-4AFF-46A5-AB2D-91E6FB2817C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sealed", "Sealed\Sealed.csproj", "{E4E4DF09-5A3F-4ABF-8327-912876DACA53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sealed", "Sealed\Sealed.csproj", "{E4E4DF09-5A3F-4ABF-8327-912876DACA53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanNotCreateObject", "CanNotCreateObject\CanNotCreateObject.csproj", "{0DE817F9-9244-4306-AE18-4F8D43DEC54B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanNotCreateObject", "CanNotCreateObject\CanNotCreateObject.csproj", "{0DE817F9-9244-4306-AE18-4F8D43DEC54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{A8CB3DE2-555D-4CE5-88EE-596F043A5C03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DE817F9-9244-4306-AE18-4F8D43DEC54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CB3DE2-555D-4CE5-88EE-596F043A5C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CB3DE2-555D-4CE5-88EE-596F043A5C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CB3DE2-555D-4CE5-88EE-596F043A5C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CB3DE2-555D-4CE5-88EE-596F043A5C03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
