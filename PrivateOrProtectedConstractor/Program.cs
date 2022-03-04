@@ -27,7 +27,6 @@ namespace PrivateOrProtectedConstractor
         }
 
 
-
         //YOU CAN NOT(CONDITION APLICABLE) INSTANTIATE ME. (See Main Method)
         public class PrivateOrProtectedConstactorClass
         {
@@ -35,13 +34,8 @@ namespace PrivateOrProtectedConstractor
 
             private PrivateOrProtectedConstactorClass()
             {
-
             }
 
-            private PrivateOrProtectedConstactorClass(int x, string y)
-            {
-
-            }
             public PrivateOrProtectedConstactorClass(int num)
             {
                 number = num;
