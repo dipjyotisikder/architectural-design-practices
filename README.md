@@ -1,4 +1,4 @@
-# architectural-design-practices
+# Architectural-design-practices
 A repository for my architectural design pattern and best practicing skills enhancement purpose.
 
 
